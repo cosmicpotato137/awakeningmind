@@ -1,0 +1,58 @@
+Developer Change Log
+Use this log to keep a record of all changes
+/created by Andy Hong 4/12/2021
+
+Update 6/10/2021  - by Andy Hong
+1. At the top add ((AwakeningMind)) TM
+2. Add description to ((Unified Playlist))
+3. Add new link for Publication: Awakening the Global Mind 
+4. Home Page Re-arranged
+
+
+===================================================================
+Update 6/9/2021  - by Andy Hong
+Update log:
+1. Add logo name at top
+2. Adjust the top sections 
+3. Move 1776 Now to upper right corner
+4. Create Blue links for all key vids
+5. Re-organize Home pages + add back blue links
+6. Create an Unified playlist for all vids in Youtube section
+
+
+===================================================================
+Update 6/7/2021  - by Andy Hong
+
+Changes Log:
+1. Made a seperate "Featured Publications" section  (Name is subject to change if Prof.G has a better idea)
+2. Remove the old Home Page design created by Tian many years ago. Rebuild the entire Recent Release section to make it more organized and visually aesthetic
+3. Remove the ((1776 Now)) at the Top, instead, I recommend filling this part with a intro
+4. Created a United Playlist for ((1776 Now))
+
+
+Broken Links:
+Home - Featured Publications
+1. two items on the 1st row
+Release section
+2. 2 CDs
+
+Suggestions of future work:
+1. Find viable links and replace the broken ones
+2. Schedule a meet with Prof. Gangadean for a quick assessment of current progress
+3. Fill in descriptions
+
+
+
+===================================================================
+Update 4/12/2021  - by Andy Hong
+
+1. Added ((1776)) Now video series to the top right of main page(index.html)
+2. Added ((A Perfect Union)) podcast as a new stripe row
+3. In document, revome the DOWNLOAD section, added the Declaration of Interdependence and 7 stages, and made them directly open upon clicking
+4. Clean up the document section link
+5. Clean up the format on the main page to make the styles look nicer
+ (Note to Ashok: As you probably that I cleaned up the style & format at the top of the main page of AwakeningMind a bit to make it look nicer. However I havent had time to do that for rest of the page yet.
+ One thing I notice in the current page layout is that, and you can probably tell already, many elements in the page are kind of clustered together and don't look very clean. I think this is a defect 
+ that Tian and Mark didnt had a chance to fix. A more clean and spaced-out and formatted page will make your website look much cleaner and professional, which will add to the credibility. So if you need 
+ help/work on this regard, please let me know as this will also take some time work.
+ )

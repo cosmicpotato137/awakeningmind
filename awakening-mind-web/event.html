@@ -1,0 +1,193 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/galleria.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <style>
+            .galleria{ width: 600px; height: 400px; background: #000 }
+        </style>
+       
+    </head>
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <!-- Fixed navbar -->
+   
+    <nav class="navbar navbar-default">
+    <div class="container">
+        <div class="col-md-2">
+            <img src="img/logo.png" class="img-responsive" style="position:relative;top:15px;width:75px;height:75px" />
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-1 col-md-offset-6">
+                    <div class="navbar-text text-right">
+ 
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <form class="navbar-form" style="text-align:right;font-size:25px">
+                        <div class="input-group"> 
+                               <i class="fa fa-facebook-square"></i> &nbsp;
+                               <i class="fa fa-twitter-square"></i> &nbsp;
+                               <i class="fa fa-youtube-square"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="./index.html">Home</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="./media.html">Media</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="./youtube.html">Youtube</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="./photo.html">Photo</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="./document.html">Document</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="./essay.html">Essay</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="./event.html">Event</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="./about.html">About</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                         <li class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <a href="./about.html">Key Links <span class="caret"></span></a>
+                          </li>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="http://www.globaldialogueinstitute.org/">Global Dialogue Institute</a></li>
+                            <li><a href="http://www.saithyoga.com/">Saith Yoga</a></li>
+                            <li><a href="https://www.haverford.edu/users/agangade">Haverford College</a></li>
+                            <li><a href="http://dialoguesanctuary.us/">Dialogue Sanctuary</a></li>
+                            <li><a href="http://www.saithmusic.com/">Saith Music</a></li>
+                            <!-- <li><a href="http://prelude.awakeningmind.org/">Prelude</a></li> -->
+                          </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- BODY STARTS HERE -->
+<script type="text/javascript" class="ng-scope">
+    function show(id) {
+        $('.modal-body').html('<img src=\"img/' + id + '\"">');
+        $('#myModal').modal('show');
+        
+    }
+</script>
+<div class="modal fade ng-scope" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content" style="width:850px;margin-left:-130px;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title" id="myModalLabel">Event Poster</h4>
+      </div>
+      <div class="modal-body"><img src="/images/event/[2007.4.7]Global Dialogue Institute.png" "=""></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-10 col-md-offset-2 ng-scope" style="padding:0px;">
+    <div class="wrap">
+
+
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="1" class="col-md-4" onclick="show('event/[2013.4.19]Dialogue Sanctuary.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2014.4.19]Dialogue Sanctuary.jpg"></div>
+    <div id="2" class="col-md-4" onclick="show('event/[2014.2.14] Global Dialogue Institute.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2014.2.14] Global Dialogue Institute.png"></div>
+    <div id="3" class="col-md-4" onclick="show('event/[2014.1.10]Awakening Life Sanctuary.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2014.1.10]Awakening Life Sanctuary.jpg"></div>
+    </div>
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="4" class="col-md-4" onclick="show('event/[2013.]Yoga_toLifeFlyer2.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2013.]Yoga_toLifeFlyer2.jpg"></div>
+    <div id="5" class="col-md-4" onclick="show('event/[2013.6.21]YogaToLife.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2013.6.21]YogaToLife.jpg"></div>
+    <div id="6" class="col-md-4" onclick="show('event/[2013.11.9]Making Sense of Our R-Evolutionary Shift to Integrative Healing.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2013.11.9]Making Sense of Our R-Evolutionary Shift to Integrative Healing.png"></div>
+    </div>
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="7" class="col-md-4" onclick="show('event/[2013.1.21]Yoga To Life.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2013.1.21]Yoga To Life.jpg"></div>
+    <div id="8" class="col-md-4" onclick="show('event/[2013.1.10]Awakening Life Sanctuary.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2013.1.10]Awakening Life Sanctuary.jpg"></div>
+    <div id="9" class="col-md-4" onclick="show('event/[2012.11.17]Power of language_B.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2012.11.17]Power of language_B.jpg"></div>
+    </div>
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="10" class="col-md-4" onclick="show('event/[2012.11.17]Making Sense of our Great Evolutionary Shift.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2012.11.17]Making Sense of our Great Evolutionary Shift.jpg"></div>
+    <div id="11" class="col-md-4" onclick="show('event/[2012,4,14]Making Sense of Our Great Evolutionary Shift.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2012,4,14]Making Sense of Our Great Evolutionary Shift.png"></div>
+    <div id="12" class="col-md-4" onclick="show('event/[2011.4.23]Making Sense of our Great Evolutionary Shift.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2011.4.23]Making Sense of our Great Evolutionary Shift.png"></div>
+    </div>
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="13" class="col-md-4" onclick="show('event/[2011.10.1]Global Dialogue Institnue.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2011.10.1]Global Dialogue Institnue.png"></div>
+    <div id="14" class="col-md-4" onclick="show('event/[2010.4.10]Making Sense of Our Great Evolutionary Shift.jpg')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2010.4.10]Making Sense of Our Great Evolutionary Shift.jpg"></div>
+    <div id="15" class="col-md-4" onclick="show('event/[2010.10.23]Making Sense of Our Great Evolutionary Shift.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2010.10.23]Making Sense of Our Great Evolutionary Shift.png"></div>
+    </div>
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="16" class="col-md-4" onclick="show('event/[2009.4.4]A Deep Dialogue On Science and Philosophy in Quest of the Unified Field of Reality.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2009.4.4]A Deep Dialogue On Science and Philosophy in Quest of the Unified Field of Reality.png"></div>
+    <div id="17" class="col-md-4" onclick="show('event/[2008.4.5]Global Philosophy Forum.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2008.4.5]Global Philosophy Forum.png"></div>
+    <div id="18" class="col-md-4" onclick="show('event/[2007.4.7]Global Dialogue Institute.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2007.4.7]Global Dialogue Institute.png"></div>
+    </div>
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="19" class="col-md-4" onclick="show('event/[2006.4.8]April 8, 2006.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2006.4.8]April 8, 2006.png"></div>
+    <div id="20" class="col-md-4" onclick="show('event/[2006.2.1]Sheldrake Global Dialogue Institute.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/[2006.2.1]Sheldrake Global Dialogue Institute.png"></div>
+    <div id="19" class="col-md-4" onclick="show('event/12.1.12 WeThePeople.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/12.1.12 WeThePeople.png"></div>
+    
+    </div>
+    <div class="col-md-12" style="padding:0px;margin-top:20px">
+    <div id="19" class="col-md-4" onclick="show('event/Forum__15.png')" style="cursor:pointer"> <img class="img-thumbnail" src="img/event_thumbnail/Forum 15.png"></div>
+    </div>
+    
+</div></div>
+<!-- BODY ENDS HERE -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+         
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
