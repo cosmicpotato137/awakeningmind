@@ -1,0 +1,83 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 26, 44);
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(220, 236, 243);
+  text-decoration: none;
+}
+*/
+
+header {
+  background-color: lightskyblue;
+}
+
+.logo {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  filter:invert(80%);
+}
+
+.background-img {
+  height: fit-content;
+}
+
+.card-body-opacity {
+  transition-property: all;
+  transition-duration: 250ms;
+  opacity: 0%;
+  background-color:rgba(0, 0, 0, 0);
+}
+.card-body-opacity:hover {
+  transition-property: all;
+  transition-duration: 250ms;
+  opacity: 100%;
+  background-color:rgba(0, 0, 0, 0.336);
+}
+
+/* .logo img {
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: rgb(212, 240, 56);
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(118, 195, 231);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+} */
