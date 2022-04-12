@@ -2,18 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/awakeningmind/private_html/
-    - /bin/cp -R awakening-mind-web/css $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/doc $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/document $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/essays $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/img $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/js $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/press $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.html $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.css $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.png $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.docx $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.txt $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.json $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.ico $DEPLOYPATH
-    - /bin/cp awakening-mind-web/*.xml $DEPLOYPATH
+    - /bin/cp awakening-mind-web/* $DEPLOYPATH
