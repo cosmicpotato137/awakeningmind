@@ -9,7 +9,6 @@ deployment:
     - /bin/cp -R awakening-mind-web/img $DEPLOYPATH
     - /bin/cp -R awakening-mind-web/js $DEPLOYPATH
     - /bin/cp -R awakening-mind-web/press $DEPLOYPATH
-    
     - /bin/cp awakening-mind-web/*.html $DEPLOYPATH
     - /bin/cp awakening-mind-web/*.css $DEPLOYPATH
     - /bin/cp awakening-mind-web/*.png $DEPLOYPATH
