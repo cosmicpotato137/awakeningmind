@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/awakeningmind/public_html/
+    - export DEPLOYPATH=/home/awakeningmind/private_html/
     - /bin/cp -R awakening-mind-web $DEPLOYPATH
