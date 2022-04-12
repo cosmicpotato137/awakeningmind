@@ -10,11 +10,11 @@ deployment:
     - /bin/cp -R awakening-mind-web/js $DEPLOYPATH
     - /bin/cp -R awakening-mind-web/press $DEPLOYPATH
     
-    - /bin/cp -R awakening-mind-web/*.html $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/*.css $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/*.png $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/*.docx $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/*.txt $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/*.json $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/*.ico $DEPLOYPATH
-    - /bin/cp -R awakening-mind-web/*.xml $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.html $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.css $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.png $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.docx $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.txt $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.json $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.ico $DEPLOYPATH
+    - /bin/cp awakening-mind-web/*.xml $DEPLOYPATH
