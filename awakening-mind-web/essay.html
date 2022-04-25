@@ -1,185 +1,317 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/galleria.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+        crossorigin="anonymous">
 
-        <style>
-            .galleria{ width: 600px; height: 400px; background: #000 }
-        </style>
-       
-    </head>
-    <body>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/galleria.min.js"></script>
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-        <!--[if lt IE 8]>
+    <style>
+        .galleria {
+            width: 600px;
+            height: 400px;
+            background: #000
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
+    <!-- Add your site or application content here -->
 
-        <!-- Fixed navbar -->
-   
+    <!-- Fixed navbar -->
+
     <nav class="navbar navbar-default">
-    <div class="container">
-        <div class="col-md-2">
-            <img src="img/logo.png" class="img-responsive" style="position:relative;top:15px;width:75px;height:75px" />
-        </div>
-        <div class="col-md-10">
-            <div class="row">
-                <div class="col-md-1 col-md-offset-6">
-                    <div class="navbar-text text-right">
- 
+        <div class="container">
+            <div class="col-md-2">
+                <img src="img/logo.png" class="img-responsive"
+                    style="position:relative;top:15px;width:75px;height:75px" />
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-1 col-md-offset-6">
+                        <div class="navbar-text text-right">
+
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <form class="navbar-form" style="text-align:right;font-size:25px">
+                            <div class="input-group">
+                                <i class="fa fa-facebook-square"></i> &nbsp;
+                                <i class="fa fa-twitter-square"></i> &nbsp;
+                                <i class="fa fa-youtube-square"></i>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <form class="navbar-form" style="text-align:right;font-size:25px">
-                        <div class="input-group"> 
-                               <i class="fa fa-facebook-square"></i> &nbsp;
-                               <i class="fa fa-twitter-square"></i> &nbsp;
-                               <i class="fa fa-youtube-square"></i>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="nav navbar-nav pull-right">
-                        <li><a href="./index.html">Home</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./media.html">Media</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./youtube.html">Youtube</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./photo.html">Photo</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./document.html">Document</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./essay.html">Essay</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./event.html">Event</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./about.html">About</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                         <li class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <a href="./about.html">Key Links <span class="caret"></span></a>
-                          </li>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="http://www.globaldialogueinstitute.org/">Global Dialogue Institute</a></li>
-                            <li><a href="http://www.saithyoga.com/">Saith Yoga</a></li>
-                            <li><a href="https://www.haverford.edu/users/agangade">Haverford College</a></li>
-                            <li><a href="http://dialoguesanctuary.us/">Dialogue Sanctuary</a></li>
-                            <li><a href="http://www.saithmusic.com/">Saith Music</a></li>
-                            <!-- <li><a href="http://prelude.awakeningmind.org/">Prelude</a></li> -->
-                          </ul>
-                    </ul>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="./index.html">Home</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="./media.html">Media</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="./youtube.html">Youtube</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="./photo.html">Photo</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="./document.html">Document</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="./essay.html">Essay</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="./event.html">Event</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="./about.html">About</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li class="dropdown-toggle" id="dropdownMenu1"
+                                data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="true">
+                                <a href="./about.html">Key Links <span
+                                        class="caret"></span></a>
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="http://www.globaldialogueinstitute.org/">Global
+                                        Dialogue Institute</a></li>
+                                <li><a href="https://www.haverford.edu/users/agangade">Haverford
+                                        College</a></li>
+                                <li><a href="http://dialoguesanctuary.us/">Dialogue
+                                        Sanctuary</a></li>
+                                <!-- <li><a href="http://prelude.awakeningmind.org/">Prelude</a></li> -->
+                            </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</nav>
-<!-- BODY STARTS HERE -->
-<div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    
-    <div class="box box-effect2 ytb-back" id="1" style="height:320px;background-image:url('/images/texture.png')">
-        <h3 class="" style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">The Evolutionary Significance of Rupert Sheldrake’s Science Set Free The Science Delusion
-        </h3>
-        <p id="less1" style="top:100px;left:20px;width:760px;text-align:left;">
-            When Rupert Sheldrake appeared at Ashok’s ((Shift Forum)) in November 2012 this was a celebration of the release of Rupert’s latest book- Science Set Free:  Dispelling Dogmas and Opening New Frontiers-.  Ashok’s ((keynote)) opening this ((Forum)) sought to open ((Source Code Space)) to situate Rupert’s book- also called “The Science Delusion” in UK - and Rupert encouraged Ashok to compose the following in-depth review.  This original essay by Ashok placed Rupert’s lifework in the context of the long missing and now emerging ((Source Code)) that opens the way to ((First Science)).  This essay by Ashok seeks to bring out the ((evolutionary significance)) of Rupert’s pioneering work and open the way to all efforts to get to the ((Unified Field)) and ((Integral Science)).
-Rupert very much appreciated this ((Reflection)) and placed this essay on his website.
-  
-        </p><div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;" onclick="window.location.replace('essays/SignificanceofSheldrakesBook.doc')">DOWNLOAD</div>
-        <p></p>
-    </div>
-    <div class="box box-effect2 ytb-back " id="2" style="height:330px;background-image:url('/images/texture.png')">
-        <h2 class="" style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">Foundation of ((Global Akashic Science))</h2><br><br>
-        <p id="less1" style="top:95px;left:20px;width:760px;text-align:left;">
-            Ashok has produced a range of original essays for books by Ervin Laszlo, or anthologies edited by him on diverse topics.  On the occasion of publishing his recent book on Akashic Field Ervin invited Ashok to present his ((reflections)) on ((Akashic Field)) and in this original ((essay)) Ashok focused on the long missing ((Source Code)), the ((Logos Code)), as key to the ((Global Akashic Field)).  The ((Source Code)) is the dormant ((Logic)) or ((Grammar)) of the ((Akashic Field)), or the ((Text of Presence)).  This original essay did not appear in Ervin’s book- it was too long and did not fit that occasion.  Ervin encouraged Ashok to publish this innovative  ((essay)) in a Journal that he supports.  This essay will appear in a special collection of Ashok’s ((Source Code Reflections)).
+    </nav>
+    <!-- BODY STARTS HERE -->
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
 
-            </p><div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;" onclick="window.location.replace('essays/Foundationof((GlobalAkashic Science)).doc')">DOWNLOAD</div>
-        <p></p>
-    </div>
-    <div class="box box-effect2 ytb-back" id="3" style="height:350px;background-image:url('/images/texture.png')">
-        <h4 class="" style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">Spiritual Transformations as the Awakening Of Global Conciousness: A Dimensional Shift in the Technology of Mind</h4>
-        <p id="less1" style="top:75px;left:20px;width:760px;text-align:left;">
-            Ashok K. Gangadean is Margaret Gest Professor of Global Philosophy at Haverford College (Haverford, PA, USA) where he has taught for the past forty-four years. He is also Director of the Margaret Gest Center for Cross-Cultural Study of Religion at Haverford, and has participated in numerous professional conferences on inter-religious dialogue and East-West comparative philosophy. His primary concern throughout his career has been to clarify the universal logos or common ground at the heart of human reason and rational life.
-He is Founder-Director of the Global Dialogue Institute which seeks to embody the dialogical powers of global reason in all aspects of cultural life and cofounder of the World Commission on Global Consciousness and Spirituality, which brings eminent global visionaries together to facilitate the great planetary awakening.
-He is author of several books including Meditative Reason: Toward Universal Grammar, Between Worlds: The Emergence of Global Reason, Meditations of Global First Philosophy:  Quest for the Missing Grammar of Logos and The Awakening of the Global Mind.
+            <div class="box box-effect2 ytb-back" id="1"
+                style="height:320px;background-image:url('/images/texture.png')">
+                <h3 class=""
+                    style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">
+                    The Evolutionary Significance of Rupert Sheldrake’s Science Set Free
+                    The Science Delusion
+                </h3>
+                <p id="less1" style="top:100px;left:20px;width:760px;text-align:left;">
+                    When Rupert Sheldrake appeared at Ashok’s ((Shift Forum)) in November
+                    2012 this was a celebration of the release of Rupert’s latest book-
+                    Science Set Free: Dispelling Dogmas and Opening New Frontiers-.
+                    Ashok’s ((keynote)) opening this ((Forum)) sought to open ((Source
+                    Code Space)) to situate Rupert’s book- also called “The Science
+                    Delusion” in UK - and Rupert encouraged Ashok to compose the following
+                    in-depth review. This original essay by Ashok placed Rupert’s lifework
+                    in the context of the long missing and now emerging ((Source Code))
+                    that opens the way to ((First Science)). This essay by Ashok seeks to
+                    bring out the ((evolutionary significance)) of Rupert’s pioneering
+                    work and open the way to all efforts to get to the ((Unified Field))
+                    and ((Integral Science)).
+                    Rupert very much appreciated this ((Reflection)) and placed this essay
+                    on his website.
 
-</p><div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;" onclick="window.location.replace('essays/Gangadean_.doc')">DOWNLOAD</div>
+                </p>
+                <div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;"
+                    onclick="window.location.replace('essays/SignificanceofSheldrakesBook.doc')">
+                    DOWNLOAD</div>
+                <p></p>
+            </div>
+            <div class="box box-effect2 ytb-back " id="2"
+                style="height:330px;background-image:url('/images/texture.png')">
+                <h2 class=""
+                    style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">
+                    Foundation of ((Global Akashic Science))</h2><br><br>
+                <p id="less1" style="top:95px;left:20px;width:760px;text-align:left;">
+                    Ashok has produced a range of original essays for books by Ervin
+                    Laszlo, or anthologies edited by him on diverse topics. On the
+                    occasion of publishing his recent book on Akashic Field Ervin invited
+                    Ashok to present his ((reflections)) on ((Akashic Field)) and in this
+                    original ((essay)) Ashok focused on the long missing ((Source Code)),
+                    the ((Logos Code)), as key to the ((Global Akashic Field)). The
+                    ((Source Code)) is the dormant ((Logic)) or ((Grammar)) of the
+                    ((Akashic Field)), or the ((Text of Presence)). This original essay
+                    did not appear in Ervin’s book- it was too long and did not fit that
+                    occasion. Ervin encouraged Ashok to publish this innovative ((essay))
+                    in a Journal that he supports. This essay will appear in a special
+                    collection of Ashok’s ((Source Code Reflections)).
 
-        <p></p>
-    </div>
-    <div class="box box-effect2 ytb-back" id="4" style="height:300px;background-image:url('/images/texture.png')">
-        <h3 class="" style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">An Integral  Blueprint for Global Transformation
-        </h3>
-        <p id="less1" style="top:70px;left:20px;width:760px;text-align:left;">
-            In these reflections I shall present a blueprint that provides a philosophical and moral and spiritual foundation for any initiative like the Global Marshall Plan, the World Wisdom Council or the World Commission on Global Consciousness and Spirituality that seeks to encourage and accelerate global transformation towards a more just and sustainable world that works for the whole human family sharing this planet.  All such initiatives, in one way or another, assume or presume a common grounding in profound global spiritual and moral values that shape their mission, vision and practical concerns.  However, this important foundation, which expresses and reflects the global collective wisdom of the ages is usually not adequately articulated or brought out into the open.  And yet this emergent global wisdom, when made explicit and clearly recognized, releases powerful moral and spiritual energy and motive forces for creative change.
-            </p><div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;" onclick="window.location.replace('essays/AnIntegralBlueprintforGlobalTransformation.doc')">DOWNLOAD</div>
-        <p></p>
-    </div>
-    <div class="box box-effect2 ytb-back" id="5" style="height:280px;background-image:url('/images/texture.png')">
-        <h2 class="" style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">The Quest for a Global Grammar, Mythos and Cosmology</h2>
-        <p id="less1" style="top:80px;left:20px;width:760px;text-align:left;">
-            Perhaps the deepest drive in human inquiry through the ages and across cultures and worldviews- whether in philosophy or science- has been the quest to encounter and express the fundamental field of Reality.  And when we rise to a truly global perspective and expand our horizon to incorporate the vast spectrum of investigations and articulations - east, west and other - certain striking patterns become evident.  One great lesson in this global perspective is that it makes all the difference how we conduct our minds - how we process reality.  
- </p><div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;" onclick="window.location.replace('essays/QuestforaGlobalGrammar.doc')">DOWNLOAD</div>
+                </p>
+                <div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;"
+                    onclick="window.location.replace('essays/Foundationof((GlobalAkashic Science)).doc')">
+                    DOWNLOAD</div>
+                <p></p>
+            </div>
+            <div class="box box-effect2 ytb-back" id="3"
+                style="height:350px;background-image:url('/images/texture.png')">
+                <h4 class=""
+                    style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">
+                    Spiritual Transformations as the Awakening Of Global Conciousness: A
+                    Dimensional Shift in the Technology of Mind</h4>
+                <p id="less1" style="top:75px;left:20px;width:760px;text-align:left;">
+                    Ashok K. Gangadean is Margaret Gest Professor of Global Philosophy at
+                    Haverford College (Haverford, PA, USA) where he has taught for the
+                    past forty-four years. He is also Director of the Margaret Gest Center
+                    for Cross-Cultural Study of Religion at Haverford, and has
+                    participated in numerous professional conferences on inter-religious
+                    dialogue and East-West comparative philosophy. His primary concern
+                    throughout his career has been to clarify the universal logos or
+                    common ground at the heart of human reason and rational life.
+                    He is Founder-Director of the Global Dialogue Institute which seeks to
+                    embody the dialogical powers of global reason in all aspects of
+                    cultural life and cofounder of the World Commission on Global
+                    Consciousness and Spirituality, which brings eminent global
+                    visionaries together to facilitate the great planetary awakening.
+                    He is author of several books including Meditative Reason: Toward
+                    Universal Grammar, Between Worlds: The Emergence of Global Reason,
+                    Meditations of Global First Philosophy: Quest for the Missing Grammar
+                    of Logos and The Awakening of the Global Mind.
 
-        <p></p>
+                </p>
+                <div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;"
+                    onclick="window.location.replace('essays/Gangadean_.doc')">DOWNLOAD
+                </div>
+
+                <p></p>
+            </div>
+            <div class="box box-effect2 ytb-back" id="4"
+                style="height:300px;background-image:url('/images/texture.png')">
+                <h3 class=""
+                    style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">
+                    An Integral Blueprint for Global Transformation
+                </h3>
+                <p id="less1" style="top:70px;left:20px;width:760px;text-align:left;">
+                    In these reflections I shall present a blueprint that provides a
+                    philosophical and moral and spiritual foundation for any initiative
+                    like the Global Marshall Plan, the World Wisdom Council or the World
+                    Commission on Global Consciousness and Spirituality that seeks to
+                    encourage and accelerate global transformation towards a more just and
+                    sustainable world that works for the whole human family sharing this
+                    planet. All such initiatives, in one way or another, assume or presume
+                    a common grounding in profound global spiritual and moral values that
+                    shape their mission, vision and practical concerns. However, this
+                    important foundation, which expresses and reflects the global
+                    collective wisdom of the ages is usually not adequately articulated or
+                    brought out into the open. And yet this emergent global wisdom, when
+                    made explicit and clearly recognized, releases powerful moral and
+                    spiritual energy and motive forces for creative change.
+                </p>
+                <div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;"
+                    onclick="window.location.replace('essays/AnIntegralBlueprintforGlobalTransformation.doc')">
+                    DOWNLOAD</div>
+                <p></p>
+            </div>
+            <div class="box box-effect2 ytb-back" id="5"
+                style="height:280px;background-image:url('/images/texture.png')">
+                <h2 class=""
+                    style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">
+                    The Quest for a Global Grammar, Mythos and Cosmology</h2>
+                <p id="less1" style="top:80px;left:20px;width:760px;text-align:left;">
+                    Perhaps the deepest drive in human inquiry through the ages and across
+                    cultures and worldviews- whether in philosophy or science- has been
+                    the quest to encounter and express the fundamental field of Reality.
+                    And when we rise to a truly global perspective and expand our horizon
+                    to incorporate the vast spectrum of investigations and articulations -
+                    east, west and other - certain striking patterns become evident. One
+                    great lesson in this global perspective is that it makes all the
+                    difference how we conduct our minds - how we process reality.
+                </p>
+                <div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;"
+                    onclick="window.location.replace('essays/QuestforaGlobalGrammar.doc')">
+                    DOWNLOAD</div>
+
+                <p></p>
+            </div>
+            <div class="box box-effect2 ytb-back" id="6"
+                style="height:280px;background-image:url('/images/texture.png')">
+                <h4 class=""
+                    style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">
+                    The Evolution and Development of our Public Issues Forum- l995 thru
+                    2005: A Global Turn in Rationality and Critical Thinking </h4>
+                <p id="less1" style="top:75px;left:20px;width:760px;text-align:left;">
+                    It is timely after a decade of my continuous involvement in
+                    collaborating with our Board of Governors in developing, convening,
+                    coordinating, moderating and chairing our Public Issues Forum to take
+                    a moment to reflect with you on the remarkable evolution of this
+                    philosophical forum. It is my sense, shared with the leadership of the
+                    Board of Governors which funds the Forum, that in this decade of
+                    innovation, maturation and experimental explorations our Forum on
+                    Critical Thinking in Education has played a vital role in a
+                    breakthrough of the highest order for our common rational enterprise
+                    and for our philosophical culture and academic life. So it is with a
+                    real sense of satisfaction and pleasure that I now share with you our
+                    sense of this adventure into higher dimensions of our rational and
+                    educational life.
+                </p>
+                <div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;"
+                    onclick="window.location.replace('essays/AshokGPPCdocpifdraft8-24-05.doc">
+                    DOWNLOAD</div>
+                <p></p>
+            </div>
+
+
+        </div>
     </div>
-    <div class="box box-effect2 ytb-back" id="6" style="height:280px;background-image:url('/images/texture.png')">
-        <h4 class="" style="top:25px;left:20px;width:760px;font-weight:bold;font-style:italic">The Evolution and Development of our Public Issues Forum- l995 thru 2005: A Global Turn in Rationality and Critical Thinking   </h4>
-        <p id="less1" style="top:75px;left:20px;width:760px;text-align:left;">
-            It is timely after a decade of my continuous involvement in collaborating with our Board of Governors in  developing,  convening, coordinating, moderating and chairing our Public Issues Forum to take a moment to reflect with you on the remarkable evolution of this philosophical forum.  It is my sense, shared with the leadership of the Board of Governors which funds the Forum, that in this decade of innovation, maturation and experimental explorations our Forum on Critical Thinking in Education has played a vital role in a breakthrough of the highest order for our common rational enterprise and for our philosophical culture and academic life.  So it is with a real sense of satisfaction and pleasure that I now share with you our sense of this adventure into higher dimensions of our rational and educational life. 
-            </p><div style="bottom:0px;width:800px;background-color:rgb(150,150,255);margin-bottom:0px;padding:5px;cursor:pointer;height:30px;color:black;font-size:15px;" onclick="window.location.replace('essays/AshokGPPCdocpifdraft8-24-05.doc">DOWNLOAD</div>
-        <p></p>
-    </div>
-    
-    
-</div>
-</div>
-<!-- BODY ENDS HERE -->
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-         
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+    <!-- BODY ENDS HERE -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                    function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+                e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+                e.src = 'https://www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto'); ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
